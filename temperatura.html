@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" type="text/css" href="css/temperatura.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Conversor de Temperatura</h2>
+
+        <form>
+            <div class="form-group">
+                <label for="inputNumero">Ingrese la temperatura:</label>
+                <input type="number" id="inputNumero" placeholder="Ingrese la temperatura" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="selectDe">Convertir de:</label>
+                <select id="selectDe">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+
+            <div class="form-group">            
+                <label for="selectA">Convertir a:</label>
+                <select id="selectA">
+                    <option value="celsius">Celsius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+
+            <button type="button" id="convertir">Convertir</button>
+        </form>
+    </div>
+
+
+    <script type="text/javascript" src="js/temperatura.js"></script>
+</body>
+</html>
